@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <!--why post is not working-->
+        <Form name="login" method="GET" id="login">
+            <div>
+                <label for="uid">User Name</label>
+                <input type="text" id="uid" placeholder="Ex.Rahul@gmail.com" required>
+                <br>
+            </div>
+            <div>
+                <label for="pwd" required>Password</label>
+
+                <input type="password" id="pwd" placeholder="Password" required>
+                <br>
+            </div>
+            <div>
+
+                <button style="float: left;" onclick="myFunction()">
+                    Login
+                </button>
+                <p id="demo"></p>
+                <p style="float: right;"> New user </p>
+                &nbsp;
+            </div>
+
+            <div>
+                <input type="submit" value="Sign Up" style="float: right;">
+            </div>
+        </Form>
+    </div>
+</body>
+
+</html>

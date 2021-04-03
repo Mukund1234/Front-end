@@ -1,0 +1,40 @@
+* {
+    flex: auto;
+    margin: auto;
+    padding: 0%;
+}
+
+.center {
+    /* display: flex;*/
+    /* justify-content: center;  */
+    text-align: center;
+    border-radius: 10px;
+    /* box-shadow: (top-bottom left-right)->alignment how thick  color; */
+    box-shadow: 0px 0px 16px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid cyan;
+    width: 50%;
+    height: 50%;
+}
+
+.center form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.center div {
+    margin: 10%;
+    /* border:2px solid blue; */
+}
