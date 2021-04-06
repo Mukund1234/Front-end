@@ -4,35 +4,70 @@
     padding: 0%;
 }
 
+body {
+    color: #6a6f8c;
+    background: #c8c8c8;
+}
+
+input {
+    border: none;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.336);
+    outline: none;
+}
+
 .center {
-    /* text-align: center; */
+    background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
     border-radius: 10px;
     box-shadow: 0px 0px 16px black;
     position: absolute;
-    top: 45%;
+    top: 70%;
     left: 50%;
-    transform: translate(-55%, -50%);
-    border: 1px solid cyan;
-    width: 50%;
-    height: 76%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 118%;
 }
 
+.child {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 57, 101, .9);
+}
 
-/* .center div {
-    margin: 1%;
-} */
+img.avatar {
+    width: 50%;
+    border-radius: 50px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0px 12px 0px;
+}
 
 h1 {
+    color: darkorange;
+    text-shadow: 2px 0px 1px black;
     text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    width: 14vmax;
+    height: 30px;
+    position: absolute;
+    background: #1161ee;
 }
 
 .center form {
     position: absolute;
-    top: 40%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    height: 50%;
+    height: 120%;
 }
 
 .container {

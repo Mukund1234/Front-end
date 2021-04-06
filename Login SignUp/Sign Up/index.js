@@ -15,7 +15,7 @@ function Signup() {
 
 
 
-    if (localStorage.getItem(pwd) === localStorage.getItem(cpwd)) {
+    if (pwd.value === cpwd.value) {
         alert("Registration Sucessful");
         localStorage.setItem('name', fname);
         localStorage.setItem('mname', mname);
@@ -27,8 +27,10 @@ function Signup() {
         localStorage.setItem('Mobile', Mobile);
         localStorage.setItem('email', email);
         //localStorage.setItem('cpwd', cpwd);
-        localStorage.setItem('pw', pwd);
-        window.open("https://www.google.com");
+        localStorage.setItem('pwd', pwd);
+        window.open("http://127.0.0.1:5500/Login/Login.html");
+        // window.location.href = "http://127.0.0.1:5500/Login/Login.html";
+        // window.location.href = "/Login/Login.html";
     } else {
         alert("User Id or Passward is Invalid");
     }
